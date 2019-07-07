@@ -139,4 +139,12 @@ ssh -T git@github.com
 
 > 提示以下类似信息证明配置成功: Hi Eric-Liu94! You've successfully authenticated, but GitHub does not provide shell access.
 
+## 桌面文件夹建立软连接
 
+如果安装`ubuntu`系统的时候选择的`语言`是`中文`, 桌面文件夹的名字就是中文, 在终端进入`桌面`文件夹总要进行输入法切换, 很麻烦, 所以这里建立一个软连接:
+
+```bash
+ln -s /home/xxx/桌面 /home/xxx/desktop 
+```
+
+> 注意: 源目录和目标目录都必须是绝对路径
