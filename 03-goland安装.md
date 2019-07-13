@@ -30,6 +30,12 @@ $ ./bin/goland.sh
 - 打开软件: `./goland.sh`
 - 选择`Activate -> Activation code`, 复制`activation-code.txt`文件的内容到文本框中, 点击按钮`Activate`即可
 
+为了方便在终端快速启动goland, 创建命令行工具: 
+
+`菜单Tools -> Create Command-line Launcher...`
+
+创建完成后, 进入到项目目录下, 直接运行`goland .`即可用goland打开当前项目.
+
 ## 解决错误
 
 打开软件的时候, 可能会提示这样的错误:
